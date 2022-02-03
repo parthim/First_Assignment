@@ -1,6 +1,24 @@
 .bg-theme{
     background-color: rgb(160, 159, 159);
 }
+/* Back to the Top Button */
+.btn-back_to_top{
+    position: fixed;
+    bottom: 10px;
+    right: 14px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: #52565c;
+    color: #fff;
+    visibility: hidden;
+    cursor: pointer;
+    box-shadow: 0 3px 9px rgb(0 0 0 / 40%);
+    z-index: 99;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -76,6 +94,7 @@
     height: 100%;
     color: #fff;
     z-index: 10;
+    background: #3e2a2ab3;
 }
 #intro .intro_text .badge {
     border-radius: 40px;
@@ -86,3 +105,21 @@
     font-size: 16px;
 }
 /* Intro Section ends */
+/* About Sections Starts */
+#about {
+    background: #fff;
+}
+#about .about_image .img {
+    border: 8px solid #f00;
+}
+/* Download Button */
+.about_dwnld_btn{
+    padding: 10px 30px;
+    margin: 5px;
+    height: unset;
+    background-color: transparent;
+    color: #f51b1b;
+    border: 0;
+    font-weight: 500;
+    box-shadow: 0 0 0 2px #e06767;
+}
