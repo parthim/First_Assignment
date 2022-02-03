@@ -143,7 +143,17 @@
 
 #hobbies .img-place {
     width: 230px;
-    height: 230px;
+    height: 290px;
     margin: 0 auto;
     overflow: hidden;
+}
+
+/* Footer Section */
+.pt-footer{
+    position: relative;
+    display: block;
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: #171925;
+    color: #9FA2AB;
 }
