@@ -1,6 +1,88 @@
 .bg-theme{
-    background-image: url(../images/body_background.jpeg);
+    background-color: rgb(160, 159, 159);
 }
-.intro{
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(36, 36, 36);
+    overflow: hidden;
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav .name{
+    left: 2%;
+    color: #fff;
+    float: left;
+    color: #f2f2f2;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 33%;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+/* Top Navbar CSS ends */
+/* Intro sections starts */
+#intro{
+    background-image:url(../images/bg_image_intro.jpeg);
+    height: 700px;
+    left: 0%;
+    right: 0%;
+    z-index: 99;
 }
+.intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(62, 57, 57, 0.8);
+    z-index: -1;
+}
+#intro .intro_text {
+    visibility: visible;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 10;
+}
+#intro .intro_text .badge {
+    border-radius: 40px;
+    color: #f00;
+    padding: 16px 24px;
+    background-color: rgba(239, 56, 36, 0.15);
+    text-shadow: 0 2px 4px rgb(23 25 37 / 40%);
+    font-size: 16px;
+}
+/* Intro Section ends */
