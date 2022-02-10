@@ -51,7 +51,7 @@
     right: 0%;
     z-index: 99;
 }
-#intro .intro_text {
+#intro .intro-text {
     visibility: visible;
     display: flex;
     flex-wrap: wrap;
@@ -64,7 +64,7 @@
     z-index: 10;
     background: #3e2a2ab3;
 }
-#intro .intro_text .badge {
+#intro .intro-text .badge {
     border-radius: 40px;
     color: #f00;
     padding: 16px 24px;
